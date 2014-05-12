@@ -8,3 +8,4 @@ Cucumber::Rake::Task.new(:cukes) do |t|
 end
 
 task :test => [ :spec, :cukes ]
+task :default => [ :test ]

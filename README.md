@@ -35,6 +35,6 @@ Tests
 
 Syntactic Assembly is tested with RSpec, and features are documented and tested with Cucumber.
 
-To run all tests: `bundle exec rake tests`
+To run all tests: `bundle exec rake`
 RSpec: `bundle exec rake spec`
 Cucumber: `bundle exec rake cukes`
