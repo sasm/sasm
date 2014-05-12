@@ -5,3 +5,5 @@ gemspec
 
 gem 'bundler', :group => [:dev, :test]
 gem 'rake', :group => [:dev, :test]
+gem 'rspec', :group => [:test]
+gem 'cucumber', :group => [:test]
