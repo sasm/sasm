@@ -1,3 +1,5 @@
+[![Ready](https://badge.waffle.io/sasm/sasm.png?label=ready&title=Ready)](https://waffle.io/sasm/sasm) [![Backlog](https://badge.waffle.io/sasm/sasm.png?label=backlog&title=Stagnant)](https://waffle.io/sasm/sasm)
+
 Syntactic Assembly
 ==================
 
