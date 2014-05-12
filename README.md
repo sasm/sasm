@@ -1,4 +1,4 @@
-[![Ready](https://badge.waffle.io/sasm/sasm.png?label=ready&title=Ready)](https://waffle.io/sasm/sasm) [![Backlog](https://badge.waffle.io/sasm/sasm.png?label=backlog&title=Stagnant)](https://waffle.io/sasm/sasm) [![Build Status](https://travis-ci.org/sasm/sasm.svg?branch=master)](https://travis-ci.org/sasm/sasm)
+[![Ready](https://badge.waffle.io/sasm/sasm.png?label=ready&title=Ready)](https://waffle.io/sasm/sasm) [![Backlog](https://badge.waffle.io/sasm/sasm.png?label=backlog&title=Stagnant)](https://waffle.io/sasm/sasm) [![Build Status](https://travis-ci.org/sasm/sasm.svg?branch=master)](https://travis-ci.org/sasm/sasm) [![Code Climate](https://codeclimate.com/github/sasm/sasm.png)](https://codeclimate.com/github/sasm/sasm)
 
 Syntactic Assembly
 ==================
