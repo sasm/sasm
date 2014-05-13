@@ -6,13 +6,13 @@ Feature: Mixins
   Scenario: Making and using a mixin
     When I enter
     """
-    mixin initGPIO() ->
-      /* This is a mixin */
+    mixin getGPIO() ->
+      ldr r0,=0x20200000 
     
     +initGPIO()
     """
     And I transpile it
     Then I should get
     """
-    /* This is a mixin */
+    ldr r0,=0x20200000 
     """
