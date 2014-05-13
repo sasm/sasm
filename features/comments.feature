@@ -11,5 +11,20 @@ Feature: Commenting like Ruby
     And I transpile it
     Then I should get
     """
-    ; This is a comment
+    /* This is a comment */
+    """
+    
+  Scenario: I have multiple lines of commented code
+    When I enter
+    """
+    /# This
+      Is A
+      Comment #/
+    """
+    And I transpile it
+    Then I should get
+    """
+    /* This
+      Is A
+      Comment */
     """
