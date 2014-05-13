@@ -7,5 +7,4 @@ Cucumber::Rake::Task.new(:cukes) do |t|
   t.cucumber_opts = '--format pretty'
 end
 
-task :test => [ :cukes ]
-task :default => [ :test ]
+task :test => [ :spec, :cukes ]
