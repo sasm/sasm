@@ -1,5 +1,9 @@
 require "sasm/version"
 
 module Sasm
-  # Your code goes here...
+  module_function
+  
+  def transpile(source)
+    Transpiler.new(source).process
+  end
 end
