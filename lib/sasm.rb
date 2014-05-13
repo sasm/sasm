@@ -1,4 +1,5 @@
 require "sasm/version"
+require "sasm/transpile"
 
 module Sasm
   module_function
