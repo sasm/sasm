@@ -8,6 +8,20 @@ It provides implementation-independant syntax, so that a program can be more eas
 
 Currently Syntactic Assembly *only* supports ARM assembly; we hope to eventually extend it to x86/x86_64 assembly languages.
 
+Helping out
+===========
+Tackle one of the features in the feature status list, and submit a PR with tag `add-feature`
+
+Feature status list
+===================
+
++ Lexer (✘)
+    - Comments (✘)
+    - Mixins (✘)
++ Parser (✘)
+    - Comments (✘)
+    - Mixins (✘)
+
 Usage
 =====
 
