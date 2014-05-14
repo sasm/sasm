@@ -1,4 +1,4 @@
-[![Ready](https://badge.waffle.io/sasm/sasm.png?label=ready&title=Ready)](https://waffle.io/sasm/sasm) [![Build Status](https://travis-ci.org/sasm/sasm.svg?branch=master)](https://travis-ci.org/sasm/sasm) [![Code Climate](https://codeclimate.com/github/sasm/sasm.png)](https://codeclimate.com/github/sasm/sasm) [![Coverage Status](https://coveralls.io/repos/sasm/sasm/badge.png)](https://coveralls.io/r/sasm/sasm)
+[![Ready](https://badge.waffle.io/sasm/sasm.png?label=ready&title=Ready)](https://waffle.io/sasm/sasm) [![Build Status](https://travis-ci.org/sasm/sasm.svg?branch=master)](https://travis-ci.org/sasm/sasm) [![Code Climate](https://codeclimate.com/github/sasm/sasm.png)](https://codeclimate.com/github/sasm/sasm) [![Coverage Status](https://coveralls.io/repos/sasm/sasm/badge.png)](https://coveralls.io/r/sasm/sasm) [![Dependency Status](https://gemnasium.com/sasm/sasm.svg)](https://gemnasium.com/sasm/sasm)
 
 Syntactic Assembly
 ==================
@@ -27,7 +27,7 @@ Usage
 
 `sasm` is the main transpiler.
 ````
-sasm [options] [file]
+sasm <command> [options] <file> [output] 
 ````
     
 The options are currently:
