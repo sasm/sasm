@@ -2,6 +2,6 @@ require 'thor'
 
 module Sasm
   class CLI < Thor
-    desc '
+    # Nothing yet ;)
   end
 end
