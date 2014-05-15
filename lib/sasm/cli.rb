@@ -2,6 +2,8 @@ require 'thor'
 
 module Sasm
   class CLI < Thor
-    # Nothing yet ;)
+    desc 'transpile <file>', 'transpile <file> into assembly'
+    def transpile(file)
+    end
   end
 end

@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.summary       = "Assembly done right."
   spec.description   = "Transpiles a higher-level assembly-compatible pseudo-platform-independant syntax into the assembly variant of choice"
   spec.homepage      = "https://archimedespi.github.io/sasm"
-  spec.license       = "MIT"
+  spec.license       = "BSD"
 
   spec.files         = `git ls-files -z`.split("\x0")
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }

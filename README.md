@@ -23,7 +23,7 @@ Feature status list
     - Mixins (✘)
 + CLI
     - Thor boilerplate (✔)
-    - Command definitions (✘)
+    - Command definitions (✔)
     - Option definitions (✘)
     - Integration with codebase (✘)
 
@@ -34,14 +34,15 @@ Usage
 ````
 sasm <command> [options] <file> [output] 
 ````
-    
-The options are currently:
-    
-* -a [language] : transpile to assembly language [language]. [language] defaults to `arm`
 
-* -p : prettify assembly.
+`<command>` can be `transpile`. 
 
-* --help, -h, -help: print this help.
+`[options]` can be:
+
+- `--assembly [language=armv6]`: Transpile to assembly language [language].
+
+`<file>` must be a system path.
+`[output]` must be a system path.
 
 Installation
 ============
