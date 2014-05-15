@@ -21,6 +21,11 @@ Feature status list
 + Parser (✘)
     - Comments (✘)
     - Mixins (✘)
++ CLI
+    - Thor boilerplate (✔)
+    - Command definitions (✘)
+    - Option definitions (✘)
+    - Integration with codebase (✘)
 
 Usage
 =====
